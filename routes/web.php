@@ -17,8 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home', function () {
+    return view('layouts.dashboard');
+});
 
-Route::resource('commodityexchanges', 'CommodityExchangeController');
 
-Route::resource('categories', 'CategoryController');
+Route::resource('customers','CustomerController');
+Route::resource('/wholesalers','Commodity_ExchangeController');
+
+
+
 
