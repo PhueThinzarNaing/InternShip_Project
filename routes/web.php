@@ -20,4 +20,5 @@ Route::get('dash', function () {
     return view('layouts.dashboard');
 });
 Route::resource('parchase','ParchaseController');
+Route::resource('item','ItemController');
 
