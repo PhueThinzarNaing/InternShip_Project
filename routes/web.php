@@ -16,8 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('dash', function () {
-    return view('layouts.dashboard');
-});
-Route::resource('parchase','ParchaseController');
+
+
+Route::resource('commodityexchanges', 'CommodityExchangeController');
+
+Route::resource('categories', 'CategoryController');
 

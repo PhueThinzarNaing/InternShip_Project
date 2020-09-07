@@ -213,21 +213,45 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <a href="categories" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Show Categories</p>
+                </a>
+              </li>
               <li class="nav-item">
                 <a href="categories/create" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Create Category</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="categories" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Show Category</p>
-                </a>
-              </li>
-             
             </ul>
           </li>
+
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+               Item
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <a href="items" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Show Items</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="items/create" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Create Items</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
@@ -341,12 +365,13 @@
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-12">
-          <div>
+          <div class="col-sm-12"><div>
      
      
      @yield('content')
-   </div>
+   
+     
+  </div>
           </div><!-- /.col -->
      
         </div><!-- /.row -->

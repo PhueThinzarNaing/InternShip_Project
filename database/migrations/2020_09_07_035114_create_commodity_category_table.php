@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddTotalCostToParchasesTable extends Migration
+class CreateCommodityCategoryTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,11 @@ class AddTotalCostToParchasesTable extends Migration
      */
     public function up()
     {
-        Schema::table('parchases', function (Blueprint $table) {
-            //
+        Schema::create('commodity_category', function (Blueprint $table) {
+            $table->id();
+            $table->integer('commodity_id')->unsigned();
+            $table->integer('category_id')->unsigned();
+            $table->timestamps();
         });
     }
 
@@ -25,8 +28,6 @@ class AddTotalCostToParchasesTable extends Migration
      */
     public function down()
     {
-        Schema::table('parchases', function (Blueprint $table) {
-            //
-        });
+        Schema::dropIfExists('commodity_category');
     }
 }
