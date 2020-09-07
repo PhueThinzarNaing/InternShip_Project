@@ -38,11 +38,10 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-<<<<<<< HEAD
+
         <a href="" class="nav-link">Home</a>
-=======
-        <a href="index3.html" class="nav-link">Home</a>
->>>>>>> master
+
+    
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -160,11 +159,10 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-<<<<<<< HEAD
+
     <a href="" class="brand-link">
-=======
-    <a href="index3.html" class="brand-link">
->>>>>>> master
+
+    
       <img src="{{url('/dashboard/dist/img/AdminLTELogo.png')}}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
@@ -222,25 +220,16 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-<<<<<<< HEAD
                 <a href="pages/layout/top-nav.html" class="nav-link">
-=======
-                <a href="categories/create" class="nav-link">
->>>>>>> master
                   <i class="far fa-circle nav-icon"></i>
                   <p>Create Category</p>
                 </a>
               </li>
               <li class="nav-item">
-<<<<<<< HEAD
+
                 <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Create Item</p>
-=======
-                <a href="categories" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Show Category</p>
->>>>>>> master
                 </a>
               </li>
              
@@ -360,17 +349,10 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-12">
-<<<<<<< HEAD
+
           
           @yield('content')      
   
-=======
-          <div>
-     
-     
-     @yield('content')
-   </div>
->>>>>>> master
           </div><!-- /.col -->
      
         </div><!-- /.row -->
