@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 Route::get('/home', function () {
     return view('layouts.dashboard');
 });
@@ -25,4 +26,10 @@ Route::resource('customers','CustomerController');
 Route::resource('/wholesalers','Commodity_ExchangeController');
 
 
+=======
+Route::get('dash', function () {
+    return view('layouts.dashboard');
+});
+Route::resource('parchase','ParchaseController');
+>>>>>>> master
 
