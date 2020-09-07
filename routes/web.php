@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::resource('commodityexchanges', 'CommodityExchangeController');
 
 Route::resource('categories', 'CategoryController');
+
